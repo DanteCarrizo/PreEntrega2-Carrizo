@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mars Habit Co.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container1">
+  <header>
+    <a href="/index.html" class="logo">MARS HABIT .CO</a>
+    <button class="openMenu" id="open"><i class="bi bi-list"></i></button> 
+    <nav class="navbar" id="nav">
+      <button class="closeMenu" id="close"><i class="bi bi-x-lg"></i></button>
+    <ul class="menu"> 
+      <li class="menu__itemActive"><a href="/index.html" target="_blank"> Inicio  </a></li>
+      <li class="menu__item"><a href="./pages/neighborhood.html" target="_blank"> Our Neighborhoods </a></li>
+      <li class="menu__item"><a href="./pages/lifemars.html" target="_blank"> Life on Mars </a></li>
+      <li class="menu__item"><a href="./pages/about.html" target="_blank"> About us </a></li>
+      <li class="menu__item"><a href="./pages/contact.html" target="_blank"> Contact Us </a></li>
+    </ul>
+  </nav>
+  </header>
+  <main>
+  <div class="content">
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <form action="#">
+          <p>
+            <label>Full name</label>
+            <input type="text" name="fullname">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+          </p>
+          <p>
+            <label>Phone</label>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          </p>
+          <p>
+          <label>Affair</label>
+          <input type="text" name="affair">
+          </p>
+          <p class="block">
+            <label>Message</label>
+            <textarea name="Message" id="" cols="10" rows="5"></textarea>
+          </p>
+          <p class="block">
+            <button type="submit">
+              Send
+            </button>
+          </p>
+        </form>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li><i class="bi bi-geo-alt"></i> Hampton, Virginia 23681</li>
+          <li><i class="bi bi-telephone"></i> +52 (81) 83 47 77 22.</li>
+          <li><i class="bi bi-envelope-at"></i> Marshabitco@nasa.gov</li>
+        </ul>
+        <p> Our team is ready to assist you.</p>
+        <p class="company">Mars Habit .Co</p>
+      </div>
+    </div>
+
+  </div>
+  </main>
+</div>
+  <footer class="end">
+    <p class="copy">Derechos reservados &copy; 2023</p>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
