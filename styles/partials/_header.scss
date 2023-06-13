@@ -1,0 +1,63 @@
+
+.container, .container1, .container2, .container4{
+  background: url(/img/main.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  header {
+    display: flex;
+
+    .openMenu,
+    .closeMenu {
+      display: none;
+    }
+
+    .logo {
+      display: flex;
+      padding-top: 2rem;
+      padding-inline: 1.5rem;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      color: $sdColor;
+
+      &:hover {
+        color: $mainColor;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+
+      .menu {
+        display: flex;
+        position: absolute;
+        right: 0;
+        padding-top: 5rem;
+        padding-inline: 1.5rem;
+        justify-content: space-between;
+        gap: 1.5rem;
+        list-style-type: none;
+        align-items: center;
+
+        .menu__item a {
+          text-decoration: none;
+          color: $sdColor;
+          font-weight: 500;
+
+          &:hover {
+            color: $mainColor;
+          }
+        }
+      }
+    }
+
+    .logo:hover {
+      color: $mainColor;
+    }
+  }
+}

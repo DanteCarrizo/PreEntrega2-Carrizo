@@ -11,5 +11,5 @@ close.addEventListener("click", () => {
 });
 
 function redic() {
-    window.location.href = "../pages/contact.html";
+    window.location.href = "./pages/contact";
   };

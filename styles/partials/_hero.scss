@@ -1,0 +1,184 @@
+.mainImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h2 {
+      font-size: 100px;
+      font-weight: 400;
+      position: absolute;
+      top: 30%;
+      bottom: 50%;
+    }
+  
+    .info {
+      text-align: center;
+      color: $mainColor
+    }
+  
+    .subtitle {
+      color: $sdColor;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+    }
+
+    .title2{
+      color: $sdColor;
+    }
+
+    .subtitle2{
+      position: absolute;
+      top: 50%;
+      font-size: 1rem;
+      color: aliceblue;
+
+    }
+
+    .info2{
+      position: absolute;
+      bottom: 30%;
+      left: 0;
+      bottom: 10%;
+      margin: 30px;
+      color: $sdColor;
+      font-size: 15px;
+
+    }
+  }
+  
+  .info {
+    position: absolute;
+    top: 55%;
+    font-size: 15px;
+    font-weight: 800;
+    color: $sdColor;
+  }
+  
+  .contacts {
+    position: absolute;
+    bottom: 25%;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 2px solid $sdColor;
+    padding: 5px;
+    background-color: transparent;
+    color: $sdColor;
+    font-weight: 300;
+  }
+
+.container2{
+  background: url(/img/lifeon.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  position: absolute;
+  top: 30%;
+
+.barrio {
+  text-align: center;
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ img {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ h3 {
+  margin-top: 5px;
+  color: $sdColor;
+}
+
+p {
+  margin-top: 5px;
+  color: rgb(171, 200, 200);
+}
+
+}
+
+.container4{
+  background: url(/img/aboutus.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .container_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+    
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    
+    .card-text {
+      margin-top: 10px;
+      text-align: center;
+      color: $sdColor;
+    }
+ 
+    }
+
+    .info2{
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    color: $sdColor;
+    font-size: 15px;
+    text-align:left;
+    align-items: center;
+    padding: 20px;
+  }
+}

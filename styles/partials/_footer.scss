@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    background-color: $mainColor;
+  
+    .copy {
+      color: $sdColor;
+      font-size: small;
+    }
+  }
